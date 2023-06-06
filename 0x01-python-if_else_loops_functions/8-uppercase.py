@@ -2,4 +2,4 @@
 def uppercase(s):
     for i in s:
         uppercase_char = chr(ord(i) & ~32)
-        print(uppercase_char, end='')
+        print("{}".format(uppercase_char), end='')
